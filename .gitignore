@@ -1,0 +1,67 @@
+# Secrets
+.env
+.env.*
+*.env
+
+# Subscriber / contact data
+*_subscribers.csv
+buyers_export.csv
+buyers_email_export.csv
+
+# Databases
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Internal-only docs
+CLAUDE.md
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# Logs / runtime
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- Project-specific (kronos-trading) ---
+# Cached CSVs / artifacts in data dir (DBs already covered above)
+data/
+# YouTube transcript cache (~tens of MB, regenerable)
+research/cache/
+research/new_transcripts/
+# CSV outputs from research backtests (can be regenerated)
+research/*.csv
+# Backup snapshots like liquidations.db.bak.20260504-195426
+*.bak
+*.bak.*
+# Live runtime config (real API creds copied here from env vars)
+config/kronos.json
+# YouTube cookie jar — contains live session cookies for multiple sites
+config/youtube_cookies.txt
+# Local-only kronos config drafts
+config/kronos.json.local
+# Archived experimental scripts pulled out of rotation
+*.archived

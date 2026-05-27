@@ -1,0 +1,67 @@
+[
+  {
+    "name": "adx_macd_momentum",
+    "class": "AdxMacdMomentum",
+    "return_pct": -8.072908011672771,
+    "max_dd_pct": 8.76133911441102,
+    "sharpe": -2.768055613709083,
+    "trades": 24,
+    "win_rate": 33.33333333333333,
+    "profit_factor": 0.4163230335435285,
+    "robustness": {
+      "skipped": "not profitable"
+    }
+  },
+  {
+    "name": "adx_rising_macd",
+    "class": "AdxRisingMacd",
+    "return_pct": -25.21761637798906,
+    "max_dd_pct": 27.840192753810776,
+    "sharpe": -3.151180457214608,
+    "trades": 129,
+    "win_rate": 34.883720930232556,
+    "profit_factor": 0.6128095109323062,
+    "robustness": {
+      "skipped": "not profitable"
+    }
+  },
+  {
+    "name": "bollinger_bands_capitulation_filter",
+    "class": "BollingerBandsCapitulationFilter",
+    "return_pct": -15.322475815400121,
+    "max_dd_pct": 16.559299579078218,
+    "sharpe": -2.572478566191073,
+    "trades": 72,
+    "win_rate": 41.66666666666667,
+    "profit_factor": 0.5954196985492256,
+    "robustness": {
+      "skipped": "not profitable"
+    }
+  },
+  {
+    "name": "capitulation_reversal",
+    "class": "CapitulationReversal",
+    "return_pct": -8.099696259935627,
+    "max_dd_pct": 9.398522169543202,
+    "sharpe": -1.3513731365889061,
+    "trades": 56,
+    "win_rate": 39.285714285714285,
+    "profit_factor": 0.693814136009774,
+    "robustness": {
+      "skipped": "not profitable"
+    }
+  },
+  {
+    "name": "hlp_sentiment_z_score_reversal",
+    "class": "HlpSentimentZScoreReversal",
+    "return_pct": 0.0,
+    "max_dd_pct": 0.0,
+    "sharpe": 0.0,
+    "trades": 0,
+    "win_rate": 0.0,
+    "profit_factor": 0.0,
+    "robustness": {
+      "skipped": "too few trades"
+    }
+  }
+]

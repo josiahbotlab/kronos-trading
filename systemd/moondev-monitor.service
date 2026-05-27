@@ -1,0 +1,15 @@
+[Unit]
+Description=Moon Dev Transcript Monitor — weekly strategy pipeline
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/agent/kronos-trading
+ExecStart=/usr/bin/python3 scripts/moondev_monitor.py
+Environment=PATH=/usr/local/bin:/usr/bin:/bin:/home/agent/.local/bin
+Environment=HOME=/home/agent
+EnvironmentFile=-/home/agent/.config/environment.d/kronos.conf
+
+[Install]
+WantedBy=default.target

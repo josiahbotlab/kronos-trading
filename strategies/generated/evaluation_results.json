@@ -1,0 +1,79 @@
+[
+  {
+    "name": "bb_squeeze_breakout",
+    "class": "BbSqueezeBreakout",
+    "return_pct": -0.0034628156145299726,
+    "max_dd_pct": 7.5445617024897285,
+    "sharpe": 0.7304619483278135,
+    "trades": 48,
+    "win_rate": 33.33333333333333,
+    "profit_factor": 0.9997742434614106,
+    "robustness": {
+      "skipped": "not profitable"
+    }
+  },
+  {
+    "name": "consecutive_down_reversal",
+    "class": "ConsecutiveDownReversal",
+    "return_pct": 0.33729601909035406,
+    "max_dd_pct": 1.5161050618707552,
+    "sharpe": 1.4492698771188126,
+    "trades": 18,
+    "win_rate": 61.111111111111114,
+    "profit_factor": 1.1567910339730902,
+    "robustness": {
+      "passed": 1,
+      "total": 5,
+      "overall_pass": false,
+      "summary": "=======================================================\n  KRONOS ROBUSTNESS REPORT\n=======================================================\n--- Out-of-Sample Test ---\n  In-Sample:     +0.22% | Sharpe 1.32\n  Out-of-Sample: +0.04% | Sharpe 1.67\n  Return Decay:  83.5%\n  Sharpe Decay:  -26.3%\n  Result:        \u274c FAIL\n--- Walk-Forward Analysis ---\n  Windows:        4\n  Profitable:     3/4 (75.0%)\n  Avg Return:     +0.10%\n  Consistency:    0.82 (lower = more consistent)\n  Result:         \u2705 PASS\n--- Parameter Sensitivity ---\n  Combos Tested:  500\n  Profitable:     220/500 (44.0%)\n  Best Return:    +4.38%\n  Worst Return:   -5.50%\n  Median Return:  -0.24%\n  Best Params:    {'consec_down_bars': 4, 'trend_sma_period': 300, 'rsi_period': 2, 'rsi_threshold': 10, 'exit_sma_period': 15, 'stop_loss_pct': 3.0, 'max_hold_bars': 16}\n  Result:         \u274c FAIL\n--- Monte Carlo Simulation ---\n  Simulations:    50\n  Survival Rate:  35/50 (70.0%)\n  Median Return:  +0.13%\n  5th Percentile: -0.50%\n  95th Pctile:    +1.47%\n  Median Max DD:  1.44%\n  Result:         \u274c FAIL\n--- Rolling Window (Quarterly) ---\n  Quarters:       2\n  Profitable:     1/2\n  All Profitable: No\n    Q1 (2025-11-13): +0.34% | 18 trades | Sharpe 1.45 \u2705\n    Q2 (2026-02-11): +0.00% | 0 trades | Sharpe 0.00 \u274c\n  Result:         \u274c FAIL\n\n=======================================================\n  OVERALL: 1/5 tests passed \u274c NOT ROBUST\n======================================================="
+    }
+  },
+  {
+    "name": "kalman_bb_breakout",
+    "class": "KalmanBbBreakout",
+    "return_pct": 3.5257288853562203,
+    "max_dd_pct": 8.309699914257216,
+    "sharpe": 1.372530065079014,
+    "trades": 36,
+    "win_rate": 50.0,
+    "profit_factor": 1.1900826605368429,
+    "robustness": {
+      "passed": 1,
+      "total": 5,
+      "overall_pass": false,
+      "summary": "=======================================================\n  KRONOS ROBUSTNESS REPORT\n=======================================================\n--- Out-of-Sample Test ---\n  In-Sample:     -6.69% | Sharpe -2.13\n  Out-of-Sample: +11.06% | Sharpe 11.36\n  Return Decay:  -265.4%\n  Sharpe Decay:  -634.1%\n  Result:        \u2705 PASS\n--- Walk-Forward Analysis ---\n  Windows:        4\n  Profitable:     2/4 (50.0%)\n  Avg Return:     +1.05%\n  Consistency:    4.22 (lower = more consistent)\n  Result:         \u274c FAIL\n--- Parameter Sensitivity ---\n  Combos Tested:  500\n  Profitable:     227/500 (45.4%)\n  Best Return:    +16.29%\n  Worst Return:   -18.51%\n  Median Return:  -0.50%\n  Best Params:    {'kalman_q': 0.001, 'kalman_r': 0.05, 'band_std_mult': 2.5, 'residual_lookback': 15, 'trailing_stop_pct': 3.0, 'take_profit_pct': 5.0, 'max_hold_bars': 20}\n  Result:         \u274c FAIL\n--- Monte Carlo Simulation ---\n  Simulations:    50\n  Survival Rate:  40/50 (80.0%)\n  Median Return:  +2.44%\n  5th Percentile: -1.64%\n  95th Pctile:    +7.80%\n  Median Max DD:  6.87%\n  Result:         \u274c FAIL\n--- Rolling Window (Quarterly) ---\n  Quarters:       2\n  Profitable:     1/2\n  All Profitable: No\n    Q1 (2025-11-13): +3.53% | 36 trades | Sharpe 1.37 \u2705\n    Q2 (2026-02-11): +0.00% | 0 trades | Sharpe 0.00 \u274c\n  Result:         \u274c FAIL\n\n=======================================================\n  OVERALL: 1/5 tests passed \u274c NOT ROBUST\n======================================================="
+    }
+  },
+  {
+    "name": "consolidation_breakout",
+    "class": "ConsolidationBreakout",
+    "return_pct": 3.7399265360659224,
+    "max_dd_pct": 7.950762047073151,
+    "sharpe": 1.6660063044733116,
+    "trades": 36,
+    "win_rate": 47.22222222222222,
+    "profit_factor": 1.2590407058346627,
+    "robustness": {
+      "passed": 1,
+      "total": 5,
+      "overall_pass": false,
+      "summary": "=======================================================\n  KRONOS ROBUSTNESS REPORT\n=======================================================\n--- Out-of-Sample Test ---\n  In-Sample:     -4.84% | Sharpe -1.64\n  Out-of-Sample: +9.62% | Sharpe 12.55\n  Return Decay:  -298.9%\n  Sharpe Decay:  -865.2%\n  Result:        \u2705 PASS\n--- Walk-Forward Analysis ---\n  Windows:        4\n  Profitable:     2/4 (50.0%)\n  Avg Return:     +0.68%\n  Consistency:    4.99 (lower = more consistent)\n  Result:         \u274c FAIL\n--- Parameter Sensitivity ---\n  Combos Tested:  500\n  Profitable:     191/500 (38.2%)\n  Best Return:    +12.49%\n  Worst Return:   -10.80%\n  Median Return:  -0.91%\n  Best Params:    {'consol_window': 24, 'range_pct_threshold': 1.5, 'min_consol_bars': 6, 'vol_mult': 1.0, 'stop_loss_pct': 2.0, 'take_profit_pct': 4.0, 'trailing_stop_pct': 3.0, 'max_hold_bars': 32}\n  Result:         \u274c FAIL\n--- Monte Carlo Simulation ---\n  Simulations:    50\n  Survival Rate:  42/50 (84.0%)\n  Median Return:  +3.25%\n  5th Percentile: -1.68%\n  95th Pctile:    +8.30%\n  Median Max DD:  7.16%\n  Result:         \u274c FAIL\n--- Rolling Window (Quarterly) ---\n  Quarters:       2\n  Profitable:     1/2\n  All Profitable: No\n    Q1 (2025-11-13): +3.74% | 36 trades | Sharpe 1.67 \u2705\n    Q2 (2026-02-11): +0.00% | 0 trades | Sharpe 0.00 \u274c\n  Result:         \u274c FAIL\n\n=======================================================\n  OVERALL: 1/5 tests passed \u274c NOT ROBUST\n======================================================="
+    }
+  },
+  {
+    "name": "parabolic_short",
+    "class": "ParabolicShort",
+    "return_pct": 8.783346455330266,
+    "max_dd_pct": 1.1609801883483488,
+    "sharpe": 4.660569697346766,
+    "trades": 21,
+    "win_rate": 66.66666666666666,
+    "profit_factor": 2.5448452786895612,
+    "robustness": {
+      "passed": 2,
+      "total": 5,
+      "overall_pass": false,
+      "summary": "=======================================================\n  KRONOS ROBUSTNESS REPORT\n=======================================================\n--- Out-of-Sample Test ---\n  In-Sample:     +7.94% | Sharpe 5.56\n  Out-of-Sample: +0.78% | Sharpe 1.77\n  Return Decay:  90.1%\n  Sharpe Decay:  68.1%\n  Result:        \u274c FAIL\n--- Walk-Forward Analysis ---\n  Windows:        4\n  Profitable:     2/4 (50.0%)\n  Avg Return:     +1.85%\n  Consistency:    3.90 (lower = more consistent)\n  Result:         \u274c FAIL\n--- Parameter Sensitivity ---\n  Combos Tested:  500\n  Profitable:     478/500 (95.6%)\n  Best Return:    +9.06%\n  Worst Return:   -1.94%\n  Median Return:  +2.83%\n  Best Params:    {'lookback': 20, 'zscore_threshold': 2.5, 'consec_up_bars': 2, 'mean_reversion_ema': 20, 'stop_loss_pct': 4.0, 'take_profit_pct': 3.0, 'trailing_stop_pct': 1.5, 'max_hold_bars': 24}\n  Result:         \u2705 PASS\n--- Monte Carlo Simulation ---\n  Simulations:    50\n  Survival Rate:  50/50 (100.0%)\n  Median Return:  +7.04%\n  5th Percentile: +4.16%\n  95th Pctile:    +9.42%\n  Median Max DD:  1.19%\n  Result:         \u2705 PASS\n--- Rolling Window (Quarterly) ---\n  Quarters:       2\n  Profitable:     1/2\n  All Profitable: No\n    Q1 (2025-11-13): +8.78% | 21 trades | Sharpe 4.66 \u2705\n    Q2 (2026-02-11): +0.00% | 0 trades | Sharpe 0.00 \u274c\n  Result:         \u274c FAIL\n\n=======================================================\n  OVERALL: 2/5 tests passed \u274c NOT ROBUST\n======================================================="
+    }
+  }
+]

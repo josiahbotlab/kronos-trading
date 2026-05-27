@@ -1,0 +1,403 @@
+[1/136] adaptive_trend_with_kaufman_moving_avera: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[2/136] adx_macd_momentum: TIER3 | IS: 2117t WR=31.0% PF=0.50 DD=47.0% | OOS: 431t WR=27.8% PF=0.43
+[3/136] adx_rising_macd: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[4/136] adx_trend_vs_chop_classification: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[5/136] aggressive_maker_order_management: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[6/136] ai_swarm_long_only_dip_entry: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[7/136] ai_swarm_whale_following_on_polymarket: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[8/136] airdrop_volume_farming_via_high_leverage: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[9/136] atr_stop_hunt_counter_trade: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[10/136] bb_adx_trend_breakout: TIER3 | IS: 5263t WR=22.9% PF=0.49 DD=50.9% | OOS: 1010t WR=21.5% PF=0.44
+[11/136] bb_squeeze_adx: TIER3 | IS: 1275t WR=39.9% PF=0.68 DD=43.7% | OOS: 225t WR=42.2% PF=0.71
+[12/136] bb_squeeze_breakout: TIER3 | IS: 2194t WR=27.9% PF=0.42 DD=46.4% | OOS: 413t WR=24.2% PF=0.29
+[13/136] bollinger_band_mean_reversion: TIER3 | IS: 4025t WR=40.5% PF=0.63 DD=44.4% | OOS: 762t WR=40.9% PF=0.55
+[14/136] bollinger_band_sma_bounce: TIER3 | IS: 5732t WR=35.1% PF=0.59 DD=48.8% | OOS: 1105t WR=33.1% PF=0.50
+[15/136] bollinger_bands_capitulation_filter: TIER3 | IS: 5730t WR=34.9% PF=0.61 DD=47.3% | OOS: 1105t WR=32.8% PF=0.51
+[16/136] consecutive_bars_reversal: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[17/136] consecutive_down_reversal: TIER3 | IS: 2015t WR=35.1% PF=0.26 DD=40.9% | OOS: 414t WR=30.4% PF=0.22
+[18/136] consolidation_breakout: TIER3 | IS: 5797t WR=33.4% PF=0.55 DD=49.6% | OOS: 1079t WR=29.6% PF=0.41
+[19/136] copy_trading_with_sma_trend_filter: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[20/136] cricket_ipl_psl_stink_bid_bot: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[21/136] cross_exchange_delta_neutral_arbitrage: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[22/136] dca_pop: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[23/136] direction_strength_speed_to_fill_scalpin: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[24/136] dual_sma_trend_following_with_pullback_e: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[25/136] edge_market_time_arbitrage: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[26/136] end_of_period_close_bot: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[27/136] gap_go_uo: INSUFFICIENT_VOLUME (IS trades=5 < 50)
+[28/136] gradual_position_exit: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[29/136] graduated_position_sizing: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[30/136] hidden_markov_model_regime_detection: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[31/136] housecoin_100x_smart_accumulation_bot: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[32/136] intraday_bollinger_with_adx_confirmation: TIER3 | IS: 5730t WR=34.9% PF=0.61 DD=47.3% | OOS: 1105t WR=32.8% PF=0.51
+[33/136] intraday_parabolic_short: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[34/136] iv_surface_reconstruction: TIER3 | IS: 6053t WR=34.1% PF=0.53 DD=53.6% | OOS: 1162t WR=33.0% PF=0.46
+[35/136] kalman_bb_breakout: TIER3 | IS: 2631t WR=35.7% PF=0.60 DD=47.0% | OOS: 513t WR=36.5% PF=0.54
+[36/136] kalman_filter_enhancement_layer: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[37/136] kalshi_whale_scanner: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[38/136] macd_6_25_high_threshold_momentum: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[39/136] macd_ema_crossover: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[40/136] market_regime_based_strategy_selection: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[41/136] markov_down_bars: TIER3 | IS: 5590t WR=19.2% PF=0.15 DD=47.8% | OOS: 1048t WR=11.7% PF=0.07
+[42/136] mean_reversion_algorithm_with_fixed_risk: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[43/136] mean_reversion_bot: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[44/136] mean_reversion_market_maker: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[45/136] mean_reversion_multi_timeframe: TIER3 | IS: 6053t WR=34.1% PF=0.53 DD=53.6% | OOS: 1162t WR=33.0% PF=0.46
+[46/136] mtf_mean_reversion: TIER3 | IS: 3939t WR=37.4% PF=0.57 DD=47.6% | OOS: 735t WR=32.5% PF=0.45
+[47/136] multi_timeframe_mean_reversion: TIER3 | IS: 6053t WR=34.1% PF=0.53 DD=53.6% | OOS: 1162t WR=33.0% PF=0.46
+[48/136] nba_first_half_stink_bid_bot: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[49/136] no_fade_whale_bot: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[50/136] obv_capitulation_divergence: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[51/136] ofi_machine_learning_binary_classifier: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[52/136] optimized_sma_pullback: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[53/136] parabolic_short: TIER3 | IS: 1488t WR=46.4% PF=0.49 DD=33.8% | OOS: 302t WR=44.7% PF=0.33
+[54/136] qqe_rsi_multi_indicator_system: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[55/136] rbi_framework: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[56/136] rbi_incubation_risk_management_protocol: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[57/136] regular_classic_two_leg_statistical_arbi: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[58/136] research_125_vwap_momentum: TIER3 | IS: 2840t WR=39.4% PF=0.72 DD=48.1% | OOS: 543t WR=42.2% PF=0.68
+[59/136] research_135_20_40_sma_crossover_with_5_day_hold: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[60/136] research_141_exhaustion_gap_strategy: TIER3 | IS: 2242t WR=44.2% PF=0.74 DD=41.9% | OOS: 426t WR=43.4% PF=0.79
+[61/136] research_150_dca_bot_with_sma_filter: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[62/136] research_158_solana_early_launch_sniping: TIER3 | IS: 3064t WR=40.4% PF=0.73 DD=46.6% | OOS: 583t WR=39.3% PF=0.54
+[63/136] research_171_oscillating_crossover: TIER3 | IS: 3065t WR=40.0% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[64/136] research_182_supply_and_demand_wick_range: TIER3 | IS: 3073t WR=41.0% PF=0.72 DD=48.3% | OOS: 583t WR=40.0% PF=0.73
+[65/136] research_205_solana_new_token_sniper: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[66/136] research_206_small_cap_meme_momentum_filter: TIER3 | IS: 2831t WR=40.0% PF=0.73 DD=45.0% | OOS: 543t WR=39.6% PF=0.61
+[67/136] research_207_kalman_filter_bollinger_band_breakout: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[68/136] research_208_kalman_mean_reversion_sniper: TIER3 | IS: 2681t WR=44.2% PF=0.71 DD=47.0% | OOS: 499t WR=44.7% PF=0.76
+[69/136] research_209_kalman_momentum_killer: TIER3 | IS: 3073t WR=41.0% PF=0.72 DD=48.3% | OOS: 583t WR=40.0% PF=0.73
+[70/136] research_213_waddah_attar_explosion_adx_hybrid: TIER3 | IS: 3065t WR=39.8% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[71/136] research_219_supply_and_demand_zone_bot_with_trend_fi: TIER3 | IS: 3073t WR=41.0% PF=0.72 DD=48.3% | OOS: 583t WR=40.0% PF=0.73
+[72/136] research_22_md_momentum: TIER3 | IS: 3065t WR=40.0% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[73/136] research_242_dual_moving_average_crossover: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[74/136] research_244_donchian_channel_breakout: TIER3 | IS: 3065t WR=40.0% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[75/136] research_245_rsi_moving_average_confluence: TIER3 | IS: 2972t WR=40.2% PF=0.67 DD=51.6% | OOS: 564t WR=39.2% PF=0.61
+[76/136] research_246_bollinger_band_trend_following: TIER3 | IS: 2608t WR=43.8% PF=0.71 DD=48.7% | OOS: 491t WR=41.8% PF=0.58
+[77/136] research_247_macd_adx_trend_confirmation: TIER3 | IS: 3073t WR=40.2% PF=0.70 DD=49.8% | OOS: 583t WR=40.8% PF=0.77
+[78/136] research_248_volume_confirmed_trend_following: TIER3 | IS: 2839t WR=39.7% PF=0.70 DD=49.5% | OOS: 543t WR=45.3% PF=0.83
+[79/136] research_249_short_term_ma_crossover: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[80/136] research_250_intraday_bollinger_bands_with_adx: TIER3 | IS: 2863t WR=41.0% PF=0.62 DD=56.4% | OOS: 544t WR=40.3% PF=0.63
+[81/136] research_253_volatility_adjusted_signal_thresholds: TIER3 | IS: 3065t WR=40.0% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[82/136] research_254_kaufman_adaptive_moving_average: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[83/136] research_267_tick_optimized_limit_execution: TIER3 | IS: 3065t WR=40.0% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[84/136] research_277_ab_cd_harmonic_pattern: TIER3 | IS: 3065t WR=40.0% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[85/136] research_28_smart_dca_with_sma_volume_filtering: TIER3 | IS: 2839t WR=39.7% PF=0.70 DD=49.5% | OOS: 543t WR=45.3% PF=0.83
+[86/136] research_310_supply_and_demand_zones: TIER3 | IS: 3073t WR=41.0% PF=0.72 DD=48.3% | OOS: 583t WR=40.0% PF=0.73
+[87/136] research_324_multi_exchange_lagger_detection_momentum: TIER3 | IS: 3065t WR=40.0% PF=0.67 DD=52.3% | OOS: 583t WR=41.0% PF=0.57
+[88/136] research_343_sellers_exhaustion_volume_wick: TIER3 | IS: 2831t WR=40.0% PF=0.73 DD=45.0% | OOS: 543t WR=39.6% PF=0.61
+[89/136] research_344_consecutive_down_closes_mean_reversion: TIER3 | IS: 2242t WR=44.2% PF=0.74 DD=41.9% | OOS: 426t WR=43.4% PF=0.79
+[90/136] research_359_sma_crossover_strategy: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[91/136] research_360_long_only_sma_price_cross: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[92/136] research_362_sma_with_kalman_filter: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[93/136] research_368_two_down_bars_median_reversion: TIER3 | IS: 2681t WR=44.2% PF=0.71 DD=47.0% | OOS: 499t WR=44.7% PF=0.76
+[94/136] research_40_capitulation_dip_buying: TIER3 | IS: 2681t WR=44.2% PF=0.71 DD=47.0% | OOS: 499t WR=44.7% PF=0.76
+[95/136] research_58_solana_new_token_sniper: TIER3 | IS: 2839t WR=39.7% PF=0.70 DD=49.5% | OOS: 543t WR=45.3% PF=0.83
+[96/136] research_78_smart_money_stop_hunt: TIER3 | IS: 3073t WR=41.0% PF=0.72 DD=48.3% | OOS: 583t WR=40.0% PF=0.73
+[97/136] research_86_rsi_divergence_multi_indicator_strategy: INSUFFICIENT_VOLUME (IS trades=4 < 50)
+[98/136] research_87_macd_momentum_crossover: TIER3 | IS: 2868t WR=41.1% PF=0.67 DD=51.3% | OOS: 544t WR=41.9% PF=0.68
+[99/136] research_96_solana_micro_cap_new_token_sniper: TIER3 | IS: 3075t WR=39.6% PF=0.68 DD=51.4% | OOS: 583t WR=41.7% PF=0.73
+[100/136] rsi_enhanced_bollinger_bands: TIER3 | IS: 5730t WR=34.9% PF=0.61 DD=47.3% | OOS: 1105t WR=32.8% PF=0.51
+[101/136] rsi_extremes: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[102/136] sma_fibonacci_confluence_long: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[103/136] sma_long_only_price_cross: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[104/136] sma_pullback_with_previous_day_low: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[105/136] sma_trend_filter: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[106/136] sma_trend_following: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[107/136] smi_momentum_divergence: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[108/136] solana_meme_coin_sniper_bot: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[109/136] solana_new_token_sniper: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[110/136] solana_trending_token_scanner: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[111/136] statistical_arbitrage: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[112/136] statistical_arbitrage_supply_demand_zone: TIER3 | IS: 6053t WR=34.1% PF=0.53 DD=53.6% | OOS: 1162t WR=33.0% PF=0.46
+[113/136] statistical_arbitrage_z_score: TIER3 | IS: 5732t WR=35.1% PF=0.59 DD=48.8% | OOS: 1105t WR=33.1% PF=0.50
+[114/136] strict_risk_controlled_position_sizing: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[115/136] supply_and_demand_wick_range: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[116/136] supply_and_demand_zone_bot: TIER3 | IS: 6053t WR=34.1% PF=0.53 DD=53.6% | OOS: 1162t WR=33.0% PF=0.46
+[117/136] supply_demand_zone_mean_reversion: TIER3 | IS: 6053t WR=34.1% PF=0.53 DD=53.6% | OOS: 1162t WR=33.0% PF=0.46
+[118/136] t_copula_fat_tail_statistical_arbitrage: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[119/136] time_weighted_dollar_cost_averaging_entr: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[120/136] timeality: TIER3 | IS: 1325t WR=39.5% PF=0.53 DD=36.9% | OOS: 262t WR=38.2% PF=0.72
+[121/136] trend_following_with_order_flow_confirma: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[122/136] two_down_bars_median_price_reversion: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[123/136] uncorrelated_multi_strategy_portfolio: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[124/136] volume_based_dynamic_exit: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[125/136] volume_weighted_feature_engineering: TIER3 | IS: 5730t WR=34.9% PF=0.61 DD=47.3% | OOS: 1105t WR=32.8% PF=0.51
+[126/136] vwap_adx_trend: TIER3 | IS: 3899t WR=39.3% PF=0.70 DD=48.5% | OOS: 748t WR=38.8% PF=0.58
+[127/136] vwap_double_stochastic: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[128/136] vwap_extreme_mean_reversion: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[129/136] vwap_mean_reversion: TIER3 | IS: 7393t WR=44.3% PF=0.51 DD=49.5% | OOS: 1410t WR=40.7% PF=0.40
+[130/136] weekly_low_accumulation: TIER3 | IS: 7289t WR=40.0% PF=0.60 DD=47.5% | OOS: 1387t WR=36.1% PF=0.48
+[131/136] whale_copy_trading_bot: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[132/136] whale_sweep_following: TIER3 | IS: 8688t WR=35.2% PF=0.56 DD=51.2% | OOS: 1674t WR=33.3% PF=0.51
+[133/136] whale_sweep_following_with_quality_filte: TIER3 | IS: 8688t WR=35.7% PF=0.54 DD=52.3% | OOS: 1674t WR=35.1% PF=0.47
+[134/136] wta_tennis_stink_bid_bot: TIER3 | IS: 6057t WR=39.7% PF=0.62 DD=45.4% | OOS: 1162t WR=38.0% PF=0.51
+[135/136] zscore_stat_arb: TIER3 | IS: 15041t WR=31.2% PF=0.25 DD=49.2% | OOS: 2918t WR=25.4% PF=0.19
+[136/136] sma_crossover: TIER3 | IS: 4388t WR=24.9% PF=0.52 DD=52.7% | OOS: 856t WR=22.8% PF=0.49
+
+======================================================================
+TOURNAMENT COMPLETE — 1559s
+  Tested: 134
+  Skipped (import error): 0
+  Skipped (insufficient volume): 2
+======================================================================
+
+
+======================================================================
+  ANALYSIS 1 — TOP 20 BY IS PROFIT FACTOR
+======================================================================
+
+CRITICAL FINDING: Every tested strategy has IS PF < 1.0. The "best"
+IS PF is 0.7411. These are the least-bad losers, not winners.
+
+The top 20 named strategies collapse into 8 distinct code templates.
+
+--- Template A: RSI Extremes + Volume Spike (2 strategies, IS PF=0.7411) ---
+Strategies: research_141_exhaustion_gap_strategy,
+            research_344_consecutive_down_closes_mean_reversion
+Logic: Enter long when RSI(14)<30 AND volume>=1.5x 20-bar avg; short
+       when RSI(14)>70 AND volume spike. 1.5% trailing stop, 60-bar
+       max hold, 12-bar cooldown.
+Direction: BOTH
+IS:  WR=44.16% | PF=0.7411 | 2,242 trades
+OOS: WR=43.43% | PF=0.7883 | 426 trades
+OOS vs IS: Slightly better (+0.05 PF)
+
+--- Template B: Volume Spike + Price Direction (2 strategies, IS PF=0.7313) ---
+Strategies: research_206_small_cap_meme_momentum_filter,
+            research_343_sellers_exhaustion_volume_wick
+Logic: Enter when volume>=1.5x avg. Direction by close[-1] > close[-3].
+       No RSI filter. Same exits as Template A.
+Direction: BOTH
+IS:  WR=39.99% | PF=0.7313 | 2,831 trades
+OOS: WR=39.59% | PF=0.6119 | 543 trades
+OOS vs IS: Significant degradation (-0.12 PF)
+
+--- Template C: OBV Trend — Always-On Entry (1 strategy, IS PF=0.7253) ---
+Strategy: research_158_solana_early_launch_sniping
+Logic: Entry condition is `if True:` — always enters after cooldown.
+       Direction by OBV vs its 10-bar SMA.
+Direction: BOTH
+IS:  WR=40.40% | PF=0.7253 | 3,064 trades
+OOS: WR=39.28% | PF=0.5402 | 583 trades
+OOS vs IS: Worst OOS degradation in top 20 (-0.19 PF)
+
+--- Template D: VWAP + Volume Spike (1 strategy, IS PF=0.7196) ---
+Strategy: research_125_vwap_momentum
+Logic: Enter when volume spike (1.5x). Direction by close vs VWAP(20).
+Direction: BOTH
+IS:  WR=39.44% | PF=0.7196 | 2,840 trades
+OOS: WR=42.17% | PF=0.6814 | 543 trades
+OOS vs IS: Moderate degradation (-0.04 PF)
+
+--- Template E: EMA(9/21) Crossover — Always-On (5 strategies, IS PF=0.7171) ---
+Strategies: research_182_supply_and_demand_wick_range,
+            research_209_kalman_momentum_killer,
+            research_219_supply_and_demand_zone_bot_with_trend_fi,
+            research_310_supply_and_demand_zones,
+            research_78_smart_money_stop_hunt
+Logic: Entry condition is `if True:` — always enters after cooldown.
+       Direction by EMA(9) vs EMA(21).
+Direction: BOTH
+IS:  WR=41.00% | PF=0.7171 | 3,073 trades
+OOS: WR=39.97% | PF=0.7287 | 583 trades
+OOS vs IS: Slightly better (+0.01 PF)
+
+--- Template F: RSI Extremes — No Volume Filter (3 strategies, IS PF=0.7115) ---
+Strategies: research_208_kalman_mean_reversion_sniper,
+            research_368_two_down_bars_median_reversion,
+            research_40_capitulation_dip_buying
+Logic: Enter when RSI(14)>70 (short) or RSI(14)<30 (long). No volume
+       filter. Same exits as Template A.
+Direction: BOTH
+IS:  WR=44.20% | PF=0.7115 | 2,681 trades
+OOS: WR=44.69% | PF=0.7643 | 499 trades
+OOS vs IS: Good improvement (+0.05 PF)
+
+--- Template G: MACD/EMA + ADX proxy (1 strategy, IS PF=0.7045) ---
+Strategy: research_247_macd_adx_trend_confirmation
+Logic: MACD as EMA(12)-EMA(26), ADX approx'd as (ATR_short/ATR_long)*50.
+       Enter when |MACD|>0 AND adx_proxy>25. Direction by MACD sign.
+Direction: BOTH
+IS:  WR=40.22% | PF=0.7045 | 3,073 trades
+OOS: WR=40.82% | PF=0.7694 | 583 trades
+OOS vs IS: Good improvement (+0.06 PF)
+
+--- Template H: VWAP + ADX + DI — Hand-Coded v1.0 (1 strategy, IS PF=0.6979) ---
+Strategy: vwap_adx_trend
+Logic: Real rolling VWAP, real ADX with +DI/-DI. Long when close>VWAP
+       AND ADX>25 AND +DI>-DI. Short inverse. Fixed TP/SL (2%/1.5%).
+Direction: BOTH
+IS:  WR=39.27% | PF=0.6979 | 3,899 trades
+OOS: WR=38.77% | PF=0.5795 | 748 trades
+OOS vs IS: Significant degradation (-0.12 PF)
+
+--- Template I: SMA(10/30) + Volume Spike (3 strategies, IS PF=0.6976) ---
+Strategies: research_248_volume_confirmed_trend_following,
+            research_28_smart_dca_with_sma_volume_filtering,
+            research_58_solana_new_token_sniper
+Logic: Enter when volume spike (1.5x). Direction by SMA(10) vs SMA(30).
+Direction: BOTH
+IS:  WR=39.73% | PF=0.6976 | 2,839 trades
+OOS: WR=45.30% | PF=0.8270 | 543 trades
+OOS vs IS: Best OOS improvement in top 20 (+0.13 PF)
+
+--- PATTERN ANALYSIS ---
+
+Q: Are top performers all short-bias?
+A: NO. Every strategy in the top 20 trades BOTH directions. Despite
+   docstrings claiming "short-only" or "long-only dip buying", the
+   actual code enters both long and short based on indicator direction.
+
+Q: Are they all the same style?
+A: YES. The 20 named strategies are only 8 distinct code templates.
+   All share the same exit framework: 1.5% trailing stop, 60-bar max
+   hold, 12-bar cooldown. The only variation is which indicator
+   determines entry direction and whether there is a volume gate.
+
+Q: Do any show OOS noticeably better than IS?
+A: YES — 5 of 8 templates show OOS PF > IS PF. Template I (SMA+volume)
+   improved most: IS 0.6976 → OOS 0.8270. But this is misleading —
+   "better" means going from losing 30 cents/dollar to losing 17
+   cents/dollar. All strategies have PF < 1.0 in both periods.
+
+
+======================================================================
+  ANALYSIS 2 — DISTINCT STRATEGY FINGERPRINTS
+======================================================================
+
+Fingerprint = (total_trades, win_rate_pct, profit_factor)
+
+--- DUPLICATE GROUPS (sorted by size, largest first) ---
+
+Group 1 — 39 strategies | Trades=8688, WR=35.17%, PF=0.5554
+  "Default SMA fallback" cluster. Includes: adaptive_trend_with_kaufman_
+  moving_avera, aggressive_maker_order_management, ai_swarm_whale_
+  following_on_polymarket, airdrop_volume_farming_via_high_leverage,
+  atr_stop_hunt_counter_trade, copy_trading_with_sma_trend_filter,
+  cross_exchange_delta_neutral_arbitrage, dca_pop, direction_strength_
+  speed_to_fill_scalpin, dual_sma_trend_following_with_pullback_e,
+  edge_market_time_arbitrage, end_of_period_close_bot, gradual_
+  position_exit, graduated_position_sizing, housecoin_100x_smart_
+  accumulation_bot, kalman_filter_enhancement_layer, kalshi_whale_
+  scanner, macd_6_25_high_threshold_momentum, macd_ema_crossover,
+  obv_capitulation_divergence, optimized_sma_pullback, rbi_framework,
+  rbi_incubation_risk_management_protocol, sma_fibonacci_confluence_
+  long, sma_long_only_price_cross, sma_pullback_with_previous_day_low,
+  sma_trend_filter, sma_trend_following, solana_meme_coin_sniper_bot,
+  solana_new_token_sniper, solana_trending_token_scanner, strict_risk_
+  controlled_position_sizing, supply_and_demand_wick_range, time_
+  weighted_dollar_cost_averaging_entr, trend_following_with_order_flow_
+  confirma, volume_based_dynamic_exit, whale_copy_trading_bot,
+  whale_sweep_following, adx_rising_macd
+
+Group 2 — 17 strategies | Trades=6057, WR=39.71%, PF=0.6248
+  "Mean reversion / RSI long-only" cluster. Includes: ai_swarm_long_
+  only_dip_entry, consecutive_bars_reversal, cricket_ipl_psl_stink_bid_
+  bot, intraday_parabolic_short, mean_reversion_algorithm_with_fixed_
+  risk, mean_reversion_bot, mean_reversion_market_maker, nba_first_half_
+  stink_bid_bot, no_fade_whale_bot, regular_classic_two_leg_statistical_
+  arbi, rsi_extremes, statistical_arbitrage, t_copula_fat_tail_
+  statistical_arbitrage, two_down_bars_median_price_reversion,
+  vwap_double_stochastic, vwap_extreme_mean_reversion,
+  wta_tennis_stink_bid_bot
+
+Group 3 — 10 strategies | Trades=3075, WR=39.64%, PF=0.683
+  research_135_20_40_sma_crossover_with_5_day_hold,
+  research_150_dca_bot_with_sma_filter,
+  research_205_solana_new_token_sniper,
+  research_207_kalman_filter_bollinger_band_breakout,
+  research_242_dual_moving_average_crossover,
+  research_249_short_term_ma_crossover,
+  research_254_kaufman_adaptive_moving_average,
+  research_359_sma_crossover_strategy,
+  research_360_long_only_sma_price_cross,
+  research_362_sma_with_kalman_filter
+
+Group 4 — 8 strategies | Trades=8688, WR=35.67%, PF=0.54
+  adx_trend_vs_chop_classification, hidden_markov_model_regime_
+  detection, market_regime_based_strategy_selection,
+  ofi_machine_learning_binary_classifier, qqe_rsi_multi_indicator_
+  system, smi_momentum_divergence, uncorrelated_multi_strategy_
+  portfolio, whale_sweep_following_with_quality_filte
+
+Group 5 — 7 strategies | Trades=3065, WR=40.03%, PF=0.6674
+  research_171_oscillating_crossover,
+  research_213_waddah_attar_explosion_adx_hybrid,
+  research_22_md_momentum,
+  research_244_donchian_channel_breakout,
+  research_253_volatility_adjusted_signal_thresholds,
+  research_267_tick_optimized_limit_execution,
+  research_277_ab_cd_harmonic_pattern
+
+Group 6 — 6 strategies | Trades=6053, WR=34.12%, PF=0.5265
+  iv_surface_reconstruction, mean_reversion_multi_timeframe,
+  multi_timeframe_mean_reversion, statistical_arbitrage_supply_demand_
+  zone, supply_and_demand_zone_bot, supply_demand_zone_mean_reversion
+
+Group 7 — 5 strategies | Trades=3073, WR=41.0%, PF=0.7171
+  research_182_supply_and_demand_wick_range,
+  research_209_kalman_momentum_killer,
+  research_219_supply_and_demand_zone_bot_with_trend_fi,
+  research_310_supply_and_demand_zones,
+  research_78_smart_money_stop_hunt
+
+Group 8 — 4 strategies | Trades=5730, WR=34.94%, PF=0.6089
+  bollinger_bands_capitulation_filter,
+  intraday_bollinger_with_adx_confirmation,
+  rsi_enhanced_bollinger_bands, volume_weighted_feature_engineering
+
+Group 9 — 3 strategies | Trades=2681, WR=44.2%, PF=0.7115
+  research_208_kalman_mean_reversion_sniper,
+  research_368_two_down_bars_median_reversion,
+  research_40_capitulation_dip_buying
+
+Group 10 — 3 strategies | Trades=2839, WR=39.73%, PF=0.6976
+  research_248_volume_confirmed_trend_following,
+  research_28_smart_dca_with_sma_volume_filtering,
+  research_58_solana_new_token_sniper
+
+Group 11 — 2 strategies | Trades=2242, WR=44.16%, PF=0.7411
+  research_141_exhaustion_gap_strategy,
+  research_344_consecutive_down_closes_mean_reversion
+
+Group 12 — 2 strategies | Trades=2831, WR=39.99%, PF=0.7313
+  research_206_small_cap_meme_momentum_filter,
+  research_343_sellers_exhaustion_volume_wick
+
+Group 13 — 2 strategies | Trades=5732, WR=35.07%, PF=0.5918
+  bollinger_band_sma_bounce, statistical_arbitrage_z_score
+
+--- 26 SINGLETONS (truly unique strategies) ---
+  adx_macd_momentum, bb_adx_trend_breakout, bb_squeeze_adx,
+  bb_squeeze_breakout, bollinger_band_mean_reversion,
+  consecutive_down_reversal, consolidation_breakout, kalman_bb_breakout,
+  markov_down_bars, mtf_mean_reversion, parabolic_short,
+  research_125_vwap_momentum, research_158_solana_early_launch_sniping,
+  research_245_rsi_moving_average_confluence,
+  research_246_bollinger_band_trend_following,
+  research_247_macd_adx_trend_confirmation,
+  research_250_intraday_bollinger_bands_with_adx,
+  research_87_macd_momentum_crossover,
+  research_96_solana_micro_cap_new_token_sniper (shared w/ Group 3),
+  sma_crossover, timeality, vwap_adx_trend, vwap_mean_reversion,
+  weekly_low_accumulation, zscore_stat_arb,
+  bollinger_band_sma_bounce (in Group 13)
+
+--- SUMMARY ---
+
+| Metric                              | Value  |
+|-------------------------------------|--------|
+| Total strategies in CSV             | 136    |
+| INSUFFICIENT_VOLUME (excluded)      | 2      |
+| TESTED strategies                   | 134    |
+| Unique fingerprints                 | 39     |
+| Duplicate groups (size >= 2)        | 13     |
+| Singleton (truly unique) strategies | 26     |
+| Strategies that are duplicates      | 95     |
+| Duplicate rate (of 134 tested)      | 70.9%  |
+| Largest cluster                     | 39     |
+
+ADJUSTED STRATEGY COUNT: Of 136 "strategies" tested, only 39 are
+distinct. The real tournament tested 39 strategies, not 136. All 39
+are TIER3 (fail IS criteria). Zero passed.

@@ -1,0 +1,27 @@
+{
+  "trained_at": "2026-03-25T09:22:28.368739",
+  "n_samples": 59,
+  "n_wins": 35,
+  "n_losses": 24,
+  "loo_accuracy": 0.4745762711864407,
+  "avg_win_prob_wins": 0.5367188721271204,
+  "avg_win_prob_losses": 0.536414882223197,
+  "min_score_threshold": 12,
+  "data_period": "2025-09-25 -> 2026-03-25",
+  "feature_importances": {
+    "atr_ratio": 0.2330874253391988,
+    "vwap_position": 0.15020037051153726,
+    "swing_hh": 0.027425235280751123,
+    "swing_hl": 0.03280372850798455,
+    "swing_lh": 0.020269689352106837,
+    "swing_ll": 0.030711023270674473,
+    "volume_ratio": 0.10266819197638394,
+    "session_hour": 0.14264564633238425,
+    "htf_1h_bullish": 0.011025007700696931,
+    "htf_1h_bearish": 0.016046126235207177,
+    "htf_4h_bullish": 0.008846309100442288,
+    "htf_4h_bearish": 0.0194505224757867,
+    "confluence_score": 0.050632220969587506,
+    "premium_discount": 0.15418850294725828
+  }
+}
