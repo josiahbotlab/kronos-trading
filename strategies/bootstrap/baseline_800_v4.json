@@ -1,9 +1,9 @@
 {
-  "version": "v3",
+  "version": "v4",
   "established_at": null,
   "source_script": "/home/agent/kronos-trading/strategies/bootstrap/topstep_bootstrap_v2.py",
   "source_script_sha256": "ad93f96d24aad1377b727a52d923deb1c953cb201b0d1affa821e2366dc6aec0",
-  "fleet_trades_source": "/home/agent/kronos-trading/strategies/bootstrap/pools/fleet_trades_v3.json",
+  "fleet_trades_source": "/home/agent/kronos-trading/strategies/bootstrap/pools/fleet_trades_v4.json",
   "fleet_trades_sha256": "ba847b37f0079288b27d01b194010e91e31a933d0364687394fa0c7db7131207",
   "sizing": "REAL LIVE FLEET: KZ 3 MNQ, ORB 1 MNQ, LSF 1 MNQ (not the inflated 3-MNQ-all of v2)",
   "pool_provenance": {
@@ -78,7 +78,8 @@
     }
   },
   "tolerance_pp": 1.0,
-  "supersedes": "baseline_800_v2.json (unreproducible \u2014 pool was in /tmp, wiped)",
-  "canonical": false,
-  "notes": "AWAITING SIGN-OFF. Durable pool path. v2 kept as deprecated record."
+  "supersedes": "baseline_800_v3.json",
+  "canonical": true,
+  "notes": "AWAITING SIGN-OFF. Durable pool path. v2 kept as deprecated record.",
+  "v4_change": "Donchian (DONCHIAN_BREAKOUT_MAX1, N=12 / 5m / max-1-day / long-only / Variant-C 200SMA / stop 1.5xATR / TP 2R, baked 1 MNQ) ADDED to fleet pool on 2026-07-02. Existing KZ/ORB/LSF trades UNCHANGED. canonical_results below are INHERITED from v3 (sim DEPLOYED_STRATEGIES unchanged = KZ/ORB/LSF); Donchian is present in the pool for future lineup sims but NOT yet in the baseline sim composition."
 }

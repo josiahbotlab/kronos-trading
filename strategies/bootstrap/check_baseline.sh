@@ -4,7 +4,7 @@
 # non-zero with a loud message if the pool is missing.
 set -uo pipefail
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BASELINE="$DIR/baseline_800_v3.json"
+BASELINE="$DIR/baseline_800_v4.json"
 
 if [ ! -f "$BASELINE" ]; then
   echo "FATAL: baseline file missing: $BASELINE" >&2
