@@ -1,0 +1,84 @@
+{
+  "version": "v3",
+  "established_at": null,
+  "source_script": "/home/agent/kronos-trading/strategies/bootstrap/topstep_bootstrap_v2.py",
+  "source_script_sha256": "ad93f96d24aad1377b727a52d923deb1c953cb201b0d1affa821e2366dc6aec0",
+  "fleet_trades_source": "/home/agent/kronos-trading/strategies/bootstrap/pools/fleet_trades_v3.json",
+  "fleet_trades_sha256": "ba847b37f0079288b27d01b194010e91e31a933d0364687394fa0c7db7131207",
+  "sizing": "REAL LIVE FLEET: KZ 3 MNQ, ORB 1 MNQ, LSF 1 MNQ (not the inflated 3-MNQ-all of v2)",
+  "pool_provenance": {
+    "KZ": "1-MINUTE faithful backtest of live AUGXMENTED_NQ_1M_KZ engine, SMT-ON via Databento MES front-month (continuous, volume-roll, 100% aligned to nq_1m_db). RegimeStrategy at 1m, min_score 13 / TP 1.0-1.8-2.8 / max_hold 120 / hard_stop 2.5 ATR / KZ London 03-05 + NY 09:30-11:30 ET / Variant-C yfinance NQ=F 200SMA shifted-1d. 1073 tr, WR 59%, PF 0.88, net -$8,585/2yr @ 3 MNQ -> KZ is STILL A LOSER even with real SMT. baked 2 x mult 1.5 = 3 MNQ. SMT resolves the open caveat: SMT-off was PF 0.83/-$11.1k, SMT-on PF 0.88/-$8.6k -> SMT helps marginally but does NOT rescue KZ (OOS PF 0.84). The 5m CSV (234tr PF 1.30) was a timeframe artifact.",
+    "ORB": "backtest_orb_8am.run_variant Mode A / clean_bias ON / range OFF / zone 08:45-09:00 ET / TP 4R (matches live orb_paper_bot). 533 tr, PF 1.90. Limit-at-zone-mid fill, no lookahead. 1 MNQ.",
+    "LSF": "rebuilt from london_sweep_fvg_paper_bot logic, UNCAPPED-dedup (356 tr vs live ~287; accepted as marginal/approximate ~$120-300/yr, barely moves baseline). 1 MNQ. PF 1.12."
+  },
+  "fleet_composition": {
+    "KZ": {
+      "json_key": "AUGXMENTED_NQ_1M_KZ_WITHOUT_SMT",
+      "baked_MNQ": 2,
+      "sizing_mult": 1.5,
+      "live_MNQ": 3,
+      "slip_per_trade_at_1pt": 12.0
+    },
+    "ORB": {
+      "json_key": "ORB_8AM",
+      "baked_MNQ": 1,
+      "sizing_mult": 1.0,
+      "live_MNQ": 1,
+      "slip_per_trade_at_1pt": 4.0
+    },
+    "LSF": {
+      "json_key": "LONDON_SWEEP_FVG",
+      "baked_MNQ": 1,
+      "sizing_mult": 1.0,
+      "live_MNQ": 1,
+      "slip_per_trade_at_1pt": 4.0
+    }
+  },
+  "sim_rules": {
+    "start_bal": 50000.0,
+    "target": 53000.0,
+    "mll_floor_permanent": 48000.0,
+    "daily_loss_limit_survivable_halt": 800.0,
+    "window_days": 30,
+    "n_sims": 10000,
+    "n_accounts": 5,
+    "seed_ensemble": 43,
+    "seed_single": 42,
+    "floor_model": "Two independent floors: (1) -$800 DAILY blocker clips day P&L at -$800 and counts a halt (SURVIVABLE, account continues next day); (2) $48,000 MLL is a HARD PERMANENT kill from day 1 (balance <= $48K anywhere = account dead, removed from any-5 pool). Terminal outcomes: pass, fail_mll, fail_time. Halts are a metric only, not terminal."
+  },
+  "slip_model": {
+    "formula": "slip_per_trade = slip_pts_per_fill \u00d7 2 fills/RT \u00d7 $2/pt/MNQ \u00d7 N_contracts",
+    "at_1pt_per_fill": {
+      "1_MNQ": 4.0,
+      "2_MNQ": 8.0,
+      "3_MNQ": 12.0,
+      "4_MNQ": 16.0
+    },
+    "at_1.5pt_per_fill": {
+      "1_MNQ": 6.0,
+      "2_MNQ": 12.0,
+      "3_MNQ": 18.0,
+      "4_MNQ": 24.0
+    }
+  },
+  "canonical_results": {
+    "no_slip": {
+      "any5_pct": 2.65,
+      "single_pct": 0.46,
+      "sgl_fail_mll_pct": 8.46,
+      "ens_pct_accts_killed": 8.4,
+      "ens_halts_per_acct_day_pct": 0.5645
+    },
+    "slip_1pt": {
+      "any5_pct": 0.25,
+      "single_pct": 0.08,
+      "sgl_fail_mll_pct": 21.93,
+      "ens_pct_accts_killed": 21.288,
+      "ens_halts_per_acct_day_pct": 0.6095
+    }
+  },
+  "tolerance_pp": 1.0,
+  "supersedes": "baseline_800_v2.json (unreproducible \u2014 pool was in /tmp, wiped)",
+  "canonical": true,
+  "notes": "AWAITING SIGN-OFF. Durable pool path. v2 kept as deprecated record."
+}
