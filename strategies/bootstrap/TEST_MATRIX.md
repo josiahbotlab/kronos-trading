@@ -12,12 +12,12 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 
 ---
 
-## ORB  (deployed · baseline PF 1.32 / net$ 2459 / n=534 @1 MNQ)
+## ORB  (⭐ Stage-2 VALIDATED at **15m** 2026-07-02 · realistic PF 3.61 / net$ 8653 / n=360 · prior 1m baseline PF 1.32 / net$ 2459.  NOTE: the axis rows below were tested at the **1m** baseline — re-sweep at 15m is pending.)
 | # | Axis | Options | STATUS | Best | PF | net$ | S2 | Notes |
 |---|------|---------|--------|------|----|----|----|-------|
 |1|Entry side|long/short/both|**deployed**|both|1.32|2459|n-a|first-break either dir + clean-bias|
 |2|Instrument|NQ/ES/YM/RTY(+µ)|**partial**|NQ|1.32|2459|—|ES=partial (0.92@1pt slip-fragile, corr 0.12); **RTY=FAIL** (ORB-RTY PF 0.99 / net −$116, IS/OOS disagree; corr 0.05 real but neg-exp); YM untested (no data)|
-|3|Timeframe|1/3/5/15/30m|**untested**|—|—|—|—|zone-based (opening range); TF sweep never run|
+|3|Timeframe|1/3/5/15/30m|**pass**|**15m**|3.61|8653|✓|**Stage-2 PASS all 5 gates** (WF 13/13, drop-top-5 holds 3.52, IS/OOS 3.66/3.58 agree, 1.5pt slip 3.19, fleet-add +16.95pp). Realistic 1m-resolved fills (pessimistic floor 2.44). Monotonic 1m→3→5→15: PF 1.32/1.49/1.73/3.61|
 |4|Session|Lon/NYopen/lunch/aft/ON|**deployed**|NY-open|1.32|2459|n-a|other windows untested for ORB|
 |5|Trigger|breakout/retest/pullback/mom|**partial**|breakout|1.32|2459|—|breakout=deployed; retest/pullback/momentum untested|
 |6|OR length|5/15/30/60m|**partial**|15m(08:45-09:00)|1.32|2459|—|08:00-08:15 historically OOS 0.97; 5/30/60 not swept at 1pt|
@@ -70,10 +70,11 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 - **Sizing-up = blows up.** KZ at 4/5 MNQ → MLL blowout 35–43%. Variance scaling is a trap above ~3 MNQ.
 - **Cross-instrument reality:** ES = marginal (ORB-ES slip-fragile at 1pt; Don-ES half-redundant corr 0.54). **RTY = TESTED 2026-07-02, FAIL** — ORB-RTY PF 0.99 / Don-RTY PF 0.40, decorrelated (corr 0.05 / 0.12) but negative-expectancy; a decorrelated *loser* is worthless (the "37% fleet-add" was a KZ-trap variance mirage). **GC / CL / YM = no data, untested.**
 - **ORB filters that FAIL:** NR7, NR4, 200SMA-regime, SMT. Cutting trade count has not once raised ORB PF.
+- **ORB timeframe = 15m (VALIDATED 2026-07-02).** 1m→15m nearly triples the edge (realistic PF 1.32→3.61, net $2459→$8653); coarser bars filter opening-range intrabar noise. **KZ-free ORB-15m2 + Don3 = 47.70% any-of-5** — best lineup found (vs 30.75% with ORB-1m).
 
 ## RANKED HIGHEST-VALUE UNTESTED CELLS (real hypothesis, not grid-fill)
 1. ~~RTY instrument~~ — **DONE 2026-07-02: FAIL** (both edges negative-expectancy on Russell; decorrelated but worthless). → **New #1 = ORB timeframe sweep (item 2).**
-2. **ORB timeframe sweep (3/5/15/30m)** — never swept; cheap; possible free PF or trade-count gain.
+2. ~~ORB timeframe sweep~~ — **DONE 2026-07-02: 15m WINS, Stage-2 PASS** (realistic PF 3.61 vs 1m 1.32; fleet ORB-15m2+Don3 = 47.70% any-of-5). → **New #1 = Donchian short-side (item 3).**
 3. **Donchian short-side (with-trend shorts below 200SMA)** — currently long-only; adding regime-aligned shorts could ~2× coverage & trade count. Cheap.
 4. **Donchian timeframe sweep (1/3/15/30m)** — cheap free-upside check.
 5. **Breakout-RETEST trigger (ORB + Donchian)** — enter on pullback to the broken level instead of at break; better R:R hypothesis, may lift thin Donchian PF.
@@ -81,4 +82,4 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 7. **Volume-confirmation filter (ORB + Donchian breakouts)** — filter false breakouts; the one filter family not yet tried on ORB.
 8. **ORB max-2/day** — currently 1/day; a second qualified setup may add uncorrelated trades.
 
-_Last updated: 2026-07-02 (cell #1 RTY recorded: FAIL)._
+_Last updated: 2026-07-02 (RTY instrument FAIL; ORB Timeframe 15m Stage-2 PASS, PF 3.61)._
