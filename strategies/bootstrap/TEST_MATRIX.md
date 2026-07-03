@@ -12,7 +12,7 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 
 ---
 
-## ORB  (⭐ Stage-2 VALIDATED at **15m** 2026-07-02 · realistic PF 3.61 / net$ 8653 / n=360 · prior 1m baseline PF 1.32 / net$ 2459.  NOTE: the axis rows below were tested at the **1m** baseline — re-sweep at 15m is pending.)
+## ORB  (⭐ Stage-2 VALIDATED: **15m + trail-after-3R** 2026-07-02 · realistic PF 6.04 / net$ 11892 / n=360 · vs 15m-4R PF 3.61/$8653 · vs 1m PF 1.32/$2459.  NOTE: other axis rows were tested at the 1m/4R baseline — re-sweep at 15m+trail pending.)
 | # | Axis | Options | STATUS | Best | PF | net$ | S2 | Notes |
 |---|------|---------|--------|------|----|----|----|-------|
 |1|Entry side|long/short/both|**deployed**|both|1.32|2459|n-a|first-break either dir + clean-bias|
@@ -22,7 +22,7 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 |5|Trigger|breakout/retest/pullback/mom|**partial**|breakout|1.32|2459|—|breakout=deployed; retest/pullback/momentum untested|
 |6|OR length|5/15/30/60m|**partial**|15m(08:45-09:00)|1.32|2459|—|08:00-08:15 historically OOS 0.97; 5/30/60 not swept at 1pt|
 |7|Stop|fixed/ATR/structure/BE-trail/step-trail|**deployed**|structure(range)|1.32|2459|n-a|trailing variants untested|
-|8|Take-profit|fixedR/ATR/tiered/runner|**deployed**|4R fixed|1.32|2459|n-a|tiered-partials & runner untested|
+|8|Take-profit|fixedR/ATR/tiered/runner/**trail**|**pass**|**trail-after-3R**|6.04|11892|✓|**Stage-2 PASS all gates**: drop-top-5 holds $10666 (still > 4R-full $8653), bootstrap 100%>$8653, WF 12/13, worst-regime PF 2.78, 1.5pt slip 5.33. Realistic 1m-walk trail. +37% net vs 4R-fixed. Also swept: TP 2/3/5/6R (4-5R best fixed), ATR stops = risk-inflation (PF~1.6, maxDD 10-17× — reject), tiered = less net|
 |9|Max trades/day|1/2/unlimited|**deployed**|1|1.32|2459|n-a|2 & unlimited untested|
 |10|Filters|vol/vol-regime/DoW/HTF/compression/SMT|**fail**|none|—|—|✗|**NR7 FAIL** (PF 1.08); **NR4 FAIL** (flat 1.30, dollars gutted 5×); **200SMA-regime FAIL**; **SMT FAIL** (no help); volume/vol-regime/DoW/HTF untested|
 
@@ -70,7 +70,7 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 - **Sizing-up = blows up.** KZ at 4/5 MNQ → MLL blowout 35–43%. Variance scaling is a trap above ~3 MNQ.
 - **Cross-instrument reality:** ES = marginal (ORB-ES slip-fragile at 1pt; Don-ES half-redundant corr 0.54). **RTY = TESTED 2026-07-02, FAIL** — ORB-RTY PF 0.99 / Don-RTY PF 0.40, decorrelated (corr 0.05 / 0.12) but negative-expectancy; a decorrelated *loser* is worthless (the "37% fleet-add" was a KZ-trap variance mirage). **GC / CL / YM = no data, untested.**
 - **ORB filters that FAIL:** NR7, NR4, 200SMA-regime, SMT. Cutting trade count has not once raised ORB PF.
-- **ORB timeframe = 15m (VALIDATED 2026-07-02).** 1m→15m nearly triples the edge (realistic PF 1.32→3.61, net $2459→$8653); coarser bars filter opening-range intrabar noise. **KZ-free ORB-15m2 + Don3 = 47.70% any-of-5** — best lineup found (vs 30.75% with ORB-1m).
+- **ORB = 15m + trail-after-3R (VALIDATED 2026-07-02).** 1m→15m tripled the edge (PF 1.32→3.61); trail-after-3R lifted it further to realistic PF 6.04 / net $11892 (drop-top-5 holds — not tail-driven). **KZ-free ORB-15m-trail2 + Don3 = 58.58% any-of-5** — best lineup found (vs 47.70% with 15m-4R, 30.75% with ORB-1m). Correct $12 Don slip.
 
 ## RANKED HIGHEST-VALUE UNTESTED CELLS (real hypothesis, not grid-fill)
 1. ~~RTY instrument~~ — **DONE 2026-07-02: FAIL** (both edges negative-expectancy on Russell; decorrelated but worthless). → **New #1 = ORB timeframe sweep (item 2).**
@@ -82,4 +82,4 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 7. **Volume-confirmation filter (ORB + Donchian breakouts)** — filter false breakouts; the one filter family not yet tried on ORB.
 8. **ORB max-2/day** — currently 1/day; a second qualified setup may add uncorrelated trades.
 
-_Last updated: 2026-07-02 (RTY instrument FAIL; ORB Timeframe 15m Stage-2 PASS, PF 3.61)._
+_Last updated: 2026-07-02 (RTY FAIL; ORB Timeframe→15m PASS; ORB exit→trail-after-3R Stage-2 PASS PF 6.04; best fleet 58.58%)._
