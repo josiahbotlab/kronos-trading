@@ -41,6 +41,7 @@ State transitions: `research` → `backtest` → `paper` → `live` → `retired
 - **Key Metrics (2.5-yr backtest, 1 MNQ):** 452 trades · WR 33.8% · PF 1.86 · Total +$4,423 · Avg winner $63 · Avg loser $17 (4R TP design — losers small, winners 3-4x bigger)
 - **Contract count:** 1 MNQ
 - **Notes:** No regime gate by design — relies on the 4R TP structure for positive expectancy. Cleanest standalone edge of the four live strategies; largest sample; longest history.
+- **✅ 15m + TRAIL-after-3R VALIDATED + OOS-ROBUST (2026-07-03):** deployed edge is the **15m** variant (not 1m) with a **trail-after-3R** exit — realistic PF **6.04** / net $11,892 @1 MNQ (Stage-2; see TEST_MATRIX). **Out-of-sample per-year 2022-2026: PF 6.18 / 4.81 / 4.78 / 6.62 / 7.79** (WR 67-71%, maxDD ≤$195, positive net EVERY year). **2022-2023 are genuine OOS** (variant built only on 2024-2026); **2022 Nasdaq bear = 2nd-best year (PF 6.18, $10,155).** The paper's *"ORB rides a 2024-only regime"* warning is **REFUTED** for the 15m-trail variant. OOS data: `data/nq_1m_2022_2023_front.parquet` (707,510 bars, continuous front-month, uncommitted alongside mes/rty parquets).
 
 ### LONDON_SWEEP_FVG
 - **Stage:** live

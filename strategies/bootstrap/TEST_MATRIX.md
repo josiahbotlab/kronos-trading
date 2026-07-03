@@ -71,6 +71,7 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 - **Cross-instrument reality:** ES = marginal (ORB-ES slip-fragile at 1pt; Don-ES half-redundant corr 0.54). **RTY = TESTED 2026-07-02, FAIL** — ORB-RTY PF 0.99 / Don-RTY PF 0.40, decorrelated (corr 0.05 / 0.12) but negative-expectancy; a decorrelated *loser* is worthless (the "37% fleet-add" was a KZ-trap variance mirage). **GC / CL / YM = no data, untested.**
 - **ORB filters that FAIL:** NR7, NR4, 200SMA-regime, SMT. Cutting trade count has not once raised ORB PF.
 - **ORB = 15m + trail-after-3R (VALIDATED 2026-07-02).** 1m→15m tripled the edge (PF 1.32→3.61); trail-after-3R lifted it further to realistic PF 6.04 / net $11892 (drop-top-5 holds — not tail-driven). **KZ-free ORB-15m-trail2 + Don3 = 58.58% any-of-5** — best lineup found (vs 47.70% with 15m-4R, 30.75% with ORB-1m). Correct $12 Don slip.
+- **ORB-15m-trail OOS ROBUSTNESS (2026-07-03):** holds ALL 5 years **2022-2026** — PF **6.18 / 4.81 / 4.78 / 6.62 / 7.79**, positive net every year, WR 67-71%, maxDD ≤$195. **2022-2023 = genuine OOS** (built only on 2024-2026); **2022 bear = 2nd-best year (PF 6.18, $10,155)**. **Paper's 2024-only-regime warning REFUTED** for the 15m-trail variant. OOS data `data/nq_1m_2022_2023_front.parquet` (707,510 bars, continuous front-month, saved uncommitted).
 
 ## RANKED HIGHEST-VALUE UNTESTED CELLS (real hypothesis, not grid-fill)
 1. ~~RTY instrument~~ — **DONE 2026-07-02: FAIL** (both edges negative-expectancy on Russell; decorrelated but worthless). → **New #1 = ORB timeframe sweep (item 2).**
@@ -82,4 +83,4 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 7. **Volume-confirmation filter (ORB + Donchian breakouts)** — filter false breakouts; the one filter family not yet tried on ORB.
 8. **ORB max-2/day** — currently 1/day; a second qualified setup may add uncorrelated trades.
 
-_Last updated: 2026-07-02 (RTY FAIL; ORB Timeframe→15m + exit→trail-after-3R Stage-2 PASS PF 6.04; Don short-side FAIL stays long-only; best fleet 58.58%)._
+_Last updated: 2026-07-03 (ORB-15m-trail OOS-ROBUST 2022-2026, paper 2024-regime warning REFUTED). Prior 07-02: RTY FAIL; ORB→15m+trail-after-3R Stage-2 PASS PF 6.04; Don short-side FAIL; best fleet 58.58%._
