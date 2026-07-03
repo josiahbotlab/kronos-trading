@@ -29,7 +29,7 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 ## DONCHIAN  (Stage-2 VALIDATED · PF 1.18 / net$ 7190 @3 MNQ · thin: drop-5 negative)
 | # | Axis | Options | STATUS | Best | PF | net$ | S2 | Notes |
 |---|------|---------|--------|------|----|----|----|-------|
-|1|Entry side|long/short/both|**pass**|long-only|1.18|7190|✓|short & both untested — **with-trend shorts below 200SMA is a live hypothesis**|
+|1|Entry side|long/short/both|**pass**|long-only|1.18|7190|✓|**short/both = FAIL** (2026-07-02): short-only PF 0.78/net −$1916, combined breaks IS/OOS (1.04/0.91) & net −$1343, fleet-add −6.10pp (58.58→52.48%). NQ down-moves choppy/squeeze — Don STAYS long-only|
 |2|Instrument|NQ/ES/YM/RTY(+µ)|**partial**|NQ|1.18|7190|✓|ES=partial (PF 1.14, corr 0.54); **RTY=FAIL** (Don-RTY PF 0.40 / net −$4034; corr 0.12 real but strong loser); YM untested (no data)|
 |3|Timeframe|1/3/5/15/30m|**partial**|5m|1.18|7190|✓|5m validated; 1/3/15/30 untested|
 |4|Session|Lon/NYopen/lunch/aft/ON|**partial**|Lon+NYopen|1.18|7190|✓|KZ windows validated; lunch/afternoon/overnight untested|
@@ -75,11 +75,11 @@ This is a PERSISTENT worklist, not a one-shot. Each cell: **STATUS** (untested /
 ## RANKED HIGHEST-VALUE UNTESTED CELLS (real hypothesis, not grid-fill)
 1. ~~RTY instrument~~ — **DONE 2026-07-02: FAIL** (both edges negative-expectancy on Russell; decorrelated but worthless). → **New #1 = ORB timeframe sweep (item 2).**
 2. ~~ORB timeframe sweep~~ — **DONE 2026-07-02: 15m WINS, Stage-2 PASS** (realistic PF 3.61 vs 1m 1.32; fleet ORB-15m2+Don3 = 47.70% any-of-5). → **New #1 = Donchian short-side (item 3).**
-3. **Donchian short-side (with-trend shorts below 200SMA)** — currently long-only; adding regime-aligned shorts could ~2× coverage & trade count. Cheap.
+3. ~~Donchian short-side~~ — **DONE 2026-07-02: FAIL** (short-only PF 0.78, combined breaks IS/OOS + fleet −6pp; NQ shorts choppy/squeeze). → **New #1 = Donchian timeframe sweep (item 4).**
 4. **Donchian timeframe sweep (1/3/15/30m)** — cheap free-upside check.
 5. **Breakout-RETEST trigger (ORB + Donchian)** — enter on pullback to the broken level instead of at break; better R:R hypothesis, may lift thin Donchian PF.
 6. **ORB tiered-partials / runner TP** — capture trend-day extension beyond fixed 4R.
 7. **Volume-confirmation filter (ORB + Donchian breakouts)** — filter false breakouts; the one filter family not yet tried on ORB.
 8. **ORB max-2/day** — currently 1/day; a second qualified setup may add uncorrelated trades.
 
-_Last updated: 2026-07-02 (RTY FAIL; ORB Timeframe→15m PASS; ORB exit→trail-after-3R Stage-2 PASS PF 6.04; best fleet 58.58%)._
+_Last updated: 2026-07-02 (RTY FAIL; ORB Timeframe→15m + exit→trail-after-3R Stage-2 PASS PF 6.04; Don short-side FAIL stays long-only; best fleet 58.58%)._
