@@ -1,0 +1,1442 @@
+[
+{
+"entry_ts": 1704291300000,
+"pnl_points": 20.125
+},
+{
+"entry_ts": 1704376800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1704722400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1704808800000,
+"pnl_points": 27.5
+},
+{
+"entry_ts": 1705071600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1705327200000,
+"pnl_points": 17.125
+},
+{
+"entry_ts": 1705500000000,
+"pnl_points": 18.25
+},
+{
+"entry_ts": 1705586400000,
+"pnl_points": 27.375
+},
+{
+"entry_ts": 1705672800000,
+"pnl_points": 29.375
+},
+{
+"entry_ts": 1706104800000,
+"pnl_points": 21.5
+},
+{
+"entry_ts": 1706191200000,
+"pnl_points": 16.125
+},
+{
+"entry_ts": 1706277600000,
+"pnl_points": 32.75
+},
+{
+"entry_ts": 1706711400000,
+"pnl_points": 23.75
+},
+{
+"entry_ts": 1706796000000,
+"pnl_points": 16.375
+},
+{
+"entry_ts": 1707141600000,
+"pnl_points": 16.75
+},
+{
+"entry_ts": 1707228000000,
+"pnl_points": 19.375
+},
+{
+"entry_ts": 1707314400000,
+"pnl_points": 34.0
+},
+{
+"entry_ts": 1707400800000,
+"pnl_points": 17.375
+},
+{
+"entry_ts": 1707487200000,
+"pnl_points": 20.5
+},
+{
+"entry_ts": 1707834600000,
+"pnl_points": 59.875
+},
+{
+"entry_ts": 1708006500000,
+"pnl_points": 17.875
+},
+{
+"entry_ts": 1708439400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1708524900000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1708610400000,
+"pnl_points": 18.375
+},
+{
+"entry_ts": 1708699500000,
+"pnl_points": 59.25
+},
+{
+"entry_ts": 1708957800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1709042400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1709128800000,
+"pnl_points": 19.875
+},
+{
+"entry_ts": 1709215200000,
+"pnl_points": 31.625
+},
+{
+"entry_ts": 1709301600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1709560800000,
+"pnl_points": 20.125
+},
+{
+"entry_ts": 1709647200000,
+"pnl_points": 18.25
+},
+{
+"entry_ts": 1709735400000,
+"pnl_points": 36.25
+},
+{
+"entry_ts": 1710163800000,
+"pnl_points": 36.5
+},
+{
+"entry_ts": 1710252900000,
+"pnl_points": 22.5
+},
+{
+"entry_ts": 1710334800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1710507600000,
+"pnl_points": 25.625
+},
+{
+"entry_ts": 1710767700000,
+"pnl_points": 17.125
+},
+{
+"entry_ts": 1710855000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1710939600000,
+"pnl_points": 16.25
+},
+{
+"entry_ts": 1711113300000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1711371600000,
+"pnl_points": 28.125
+},
+{
+"entry_ts": 1711458000000,
+"pnl_points": -10.5
+},
+{
+"entry_ts": 1711546200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1711632600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1711976400000,
+"pnl_points": 29.5
+},
+{
+"entry_ts": 1712238300000,
+"pnl_points": 20.25
+},
+{
+"entry_ts": 1712322000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1712581200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1712842200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1712928600000,
+"pnl_points": 36.375
+},
+{
+"entry_ts": 1713187800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1713272400000,
+"pnl_points": 16.25
+},
+{
+"entry_ts": 1713358800000,
+"pnl_points": 32.0
+},
+{
+"entry_ts": 1713445200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1713531600000,
+"pnl_points": 20.375
+},
+{
+"entry_ts": 1713877200000,
+"pnl_points": 17.125
+},
+{
+"entry_ts": 1714050000000,
+"pnl_points": 49.75
+},
+{
+"entry_ts": 1714395600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1714482000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1714656600000,
+"pnl_points": 36.0
+},
+{
+"entry_ts": 1714741200000,
+"pnl_points": 38.25
+},
+{
+"entry_ts": 1715090400000,
+"pnl_points": 28.75
+},
+{
+"entry_ts": 1715259600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1715605200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1715691600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1715866200000,
+"pnl_points": 16.375
+},
+{
+"entry_ts": 1715950800000,
+"pnl_points": 17.75
+},
+{
+"entry_ts": 1716300000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1716989400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1717074900000,
+"pnl_points": 18.875
+},
+{
+"entry_ts": 1717419600000,
+"pnl_points": 18.75
+},
+{
+"entry_ts": 1717506000000,
+"pnl_points": 18.5
+},
+{
+"entry_ts": 1717594200000,
+"pnl_points": 16.25
+},
+{
+"entry_ts": 1717678800000,
+"pnl_points": 17.75
+},
+{
+"entry_ts": 1718715600000,
+"pnl_points": 17.875
+},
+{
+"entry_ts": 1719235800000,
+"pnl_points": 17.375
+},
+{
+"entry_ts": 1719321300000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1719408600000,
+"pnl_points": 16.25
+},
+{
+"entry_ts": 1719493200000,
+"pnl_points": 24.0
+},
+{
+"entry_ts": 1719581400000,
+"pnl_points": 48.5
+},
+{
+"entry_ts": 1720098000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1720533600000,
+"pnl_points": 24.75
+},
+{
+"entry_ts": 1720703700000,
+"pnl_points": 18.875
+},
+{
+"entry_ts": 1721221200000,
+"pnl_points": 25.5
+},
+{
+"entry_ts": 1721308500000,
+"pnl_points": 17.75
+},
+{
+"entry_ts": 1721653200000,
+"pnl_points": 19.75
+},
+{
+"entry_ts": 1721826900000,
+"pnl_points": 22.5
+},
+{
+"entry_ts": 1721998800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1722259800000,
+"pnl_points": 86.5
+},
+{
+"entry_ts": 1722344400000,
+"pnl_points": 20.625
+},
+{
+"entry_ts": 1722432600000,
+"pnl_points": 18.0
+},
+{
+"entry_ts": 1722517200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1722603600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1723122000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1723554000000,
+"pnl_points": 17.625
+},
+{
+"entry_ts": 1723726800000,
+"pnl_points": 16.625
+},
+{
+"entry_ts": 1723815000000,
+"pnl_points": 33.125
+},
+{
+"entry_ts": 1724158800000,
+"pnl_points": 25.875
+},
+{
+"entry_ts": 1724334300000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1724418900000,
+"pnl_points": 18.125
+},
+{
+"entry_ts": 1724763600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1724936400000,
+"pnl_points": 18.25
+},
+{
+"entry_ts": 1725022800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1725282000000,
+"pnl_points": 20.5
+},
+{
+"entry_ts": 1725369300000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1725454800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1725541200000,
+"pnl_points": 21.625
+},
+{
+"entry_ts": 1725886800000,
+"pnl_points": 31.25
+},
+{
+"entry_ts": 1726061400000,
+"pnl_points": 64.625
+},
+{
+"entry_ts": 1726232400000,
+"pnl_points": 30.875
+},
+{
+"entry_ts": 1726578900000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1726664400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1727184600000,
+"pnl_points": 26.375
+},
+{
+"entry_ts": 1727269200000,
+"pnl_points": 23.875
+},
+{
+"entry_ts": 1727356500000,
+"pnl_points": 18.875
+},
+{
+"entry_ts": 1727442000000,
+"pnl_points": -6.625
+},
+{
+"entry_ts": 1727705700000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1727878500000,
+"pnl_points": 36.125
+},
+{
+"entry_ts": 1727962200000,
+"pnl_points": 39.5
+},
+{
+"entry_ts": 1728480600000,
+"pnl_points": 16.125
+},
+{
+"entry_ts": 1728651600000,
+"pnl_points": 42.75
+},
+{
+"entry_ts": 1728999000000,
+"pnl_points": 18.875
+},
+{
+"entry_ts": 1729083600000,
+"pnl_points": 18.125
+},
+{
+"entry_ts": 1729171800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1729256400000,
+"pnl_points": 21.5
+},
+{
+"entry_ts": 1729515600000,
+"pnl_points": 16.375
+},
+{
+"entry_ts": 1729602000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1729688400000,
+"pnl_points": 22.75
+},
+{
+"entry_ts": 1729774800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1730206800000,
+"pnl_points": 24.0
+},
+{
+"entry_ts": 1730297700000,
+"pnl_points": 24.75
+},
+{
+"entry_ts": 1730380500000,
+"pnl_points": 23.75
+},
+{
+"entry_ts": 1730467800000,
+"pnl_points": 30.25
+},
+{
+"entry_ts": 1730732400000,
+"pnl_points": 23.25
+},
+{
+"entry_ts": 1730901600000,
+"pnl_points": 19.5
+},
+{
+"entry_ts": 1730988000000,
+"pnl_points": 20.5
+},
+{
+"entry_ts": 1731420000000,
+"pnl_points": 16.75
+},
+{
+"entry_ts": 1731679200000,
+"pnl_points": 41.625
+},
+{
+"entry_ts": 1731938400000,
+"pnl_points": 26.25
+},
+{
+"entry_ts": 1732197600000,
+"pnl_points": 32.125
+},
+{
+"entry_ts": 1732543200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1732630500000,
+"pnl_points": 26.375
+},
+{
+"entry_ts": 1732716000000,
+"pnl_points": 70.125
+},
+{
+"entry_ts": 1732889700000,
+"pnl_points": 43.75
+},
+{
+"entry_ts": 1733238000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1733320800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1733409900000,
+"pnl_points": 17.25
+},
+{
+"entry_ts": 1733753700000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1734100200000,
+"pnl_points": 19.625
+},
+{
+"entry_ts": 1734357600000,
+"pnl_points": 18.25
+},
+{
+"entry_ts": 1734534000000,
+"pnl_points": 27.375
+},
+{
+"entry_ts": 1734962400000,
+"pnl_points": 19.25
+},
+{
+"entry_ts": 1735049700000,
+"pnl_points": 16.625
+},
+{
+"entry_ts": 1735567200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1735653600000,
+"pnl_points": 20.5
+},
+{
+"entry_ts": 1735830000000,
+"pnl_points": 49.75
+},
+{
+"entry_ts": 1735912800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1736260200000,
+"pnl_points": 28.0
+},
+{
+"entry_ts": 1736779500000,
+"pnl_points": 71.375
+},
+{
+"entry_ts": 1736949600000,
+"pnl_points": 18.0
+},
+{
+"entry_ts": 1737036000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1737124200000,
+"pnl_points": 82.25
+},
+{
+"entry_ts": 1737381600000,
+"pnl_points": 29.25
+},
+{
+"entry_ts": 1737554400000,
+"pnl_points": 22.5
+},
+{
+"entry_ts": 1737640800000,
+"pnl_points": 21.125
+},
+{
+"entry_ts": 1737729000000,
+"pnl_points": 31.5
+},
+{
+"entry_ts": 1737986400000,
+"pnl_points": 20.375
+},
+{
+"entry_ts": 1738161000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1738332000000,
+"pnl_points": 26.375
+},
+{
+"entry_ts": 1738591200000,
+"pnl_points": 17.75
+},
+{
+"entry_ts": 1738940400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1739370600000,
+"pnl_points": 21.5
+},
+{
+"entry_ts": 1740061800000,
+"pnl_points": 18.375
+},
+{
+"entry_ts": 1740146400000,
+"pnl_points": 68.5
+},
+{
+"entry_ts": 1740492000000,
+"pnl_points": 34.875
+},
+{
+"entry_ts": 1740578400000,
+"pnl_points": 16.75
+},
+{
+"entry_ts": 1740751200000,
+"pnl_points": 19.375
+},
+{
+"entry_ts": 1741011300000,
+"pnl_points": 28.125
+},
+{
+"entry_ts": 1741096800000,
+"pnl_points": 45.125
+},
+{
+"entry_ts": 1741183200000,
+"pnl_points": 36.75
+},
+{
+"entry_ts": 1741356000000,
+"pnl_points": 26.25
+},
+{
+"entry_ts": 1741872600000,
+"pnl_points": 28.0
+},
+{
+"entry_ts": 1741957200000,
+"pnl_points": 29.375
+},
+{
+"entry_ts": 1742218200000,
+"pnl_points": 67.0
+},
+{
+"entry_ts": 1742303700000,
+"pnl_points": 17.75
+},
+{
+"entry_ts": 1742477400000,
+"pnl_points": 68.0
+},
+{
+"entry_ts": 1743080400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1743513300000,
+"pnl_points": 18.25
+},
+{
+"entry_ts": 1743598800000,
+"pnl_points": 23.375
+},
+{
+"entry_ts": 1744030800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1744376400000,
+"pnl_points": 33.625
+},
+{
+"entry_ts": 1744635600000,
+"pnl_points": 18.125
+},
+{
+"entry_ts": 1744808400000,
+"pnl_points": 21.625
+},
+{
+"entry_ts": 1744895700000,
+"pnl_points": 42.25
+},
+{
+"entry_ts": 1745240400000,
+"pnl_points": 18.75
+},
+{
+"entry_ts": 1745328600000,
+"pnl_points": 22.0
+},
+{
+"entry_ts": 1745413200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1745499600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1745845200000,
+"pnl_points": 21.625
+},
+{
+"entry_ts": 1745934300000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1746018000000,
+"pnl_points": 17.875
+},
+{
+"entry_ts": 1746192600000,
+"pnl_points": 34.0
+},
+{
+"entry_ts": 1746450000000,
+"pnl_points": 23.125
+},
+{
+"entry_ts": 1746536400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1746625500000,
+"pnl_points": 34.375
+},
+{
+"entry_ts": 1746709200000,
+"pnl_points": 22.625
+},
+{
+"entry_ts": 1746795600000,
+"pnl_points": 16.75
+},
+{
+"entry_ts": 1747141200000,
+"pnl_points": 18.75
+},
+{
+"entry_ts": 1747746900000,
+"pnl_points": 16.25
+},
+{
+"entry_ts": 1747920600000,
+"pnl_points": 36.75
+},
+{
+"entry_ts": 1748264400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1748351700000,
+"pnl_points": 37.75
+},
+{
+"entry_ts": 1748523600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1748610000000,
+"pnl_points": 16.25
+},
+{
+"entry_ts": 1748957400000,
+"pnl_points": 67.875
+},
+{
+"entry_ts": 1749045600000,
+"pnl_points": 34.625
+},
+{
+"entry_ts": 1749130200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1749560400000,
+"pnl_points": 20.25
+},
+{
+"entry_ts": 1749646800000,
+"pnl_points": 20.125
+},
+{
+"entry_ts": 1750078800000,
+"pnl_points": 24.5
+},
+{
+"entry_ts": 1750856400000,
+"pnl_points": 19.875
+},
+{
+"entry_ts": 1750942800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1751029200000,
+"pnl_points": 21.125
+},
+{
+"entry_ts": 1751290200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1751374800000,
+"pnl_points": 18.5
+},
+{
+"entry_ts": 1751461200000,
+"pnl_points": 23.625
+},
+{
+"entry_ts": 1751634000000,
+"pnl_points": 26.0
+},
+{
+"entry_ts": 1751981400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1752066000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1752152400000,
+"pnl_points": 22.625
+},
+{
+"entry_ts": 1752843600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1753103700000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1753189200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1753275600000,
+"pnl_points": 27.125
+},
+{
+"entry_ts": 1753363800000,
+"pnl_points": 41.5
+},
+{
+"entry_ts": 1753710300000,
+"pnl_points": 17.375
+},
+{
+"entry_ts": 1753794000000,
+"pnl_points": 34.125
+},
+{
+"entry_ts": 1753882200000,
+"pnl_points": 26.25
+},
+{
+"entry_ts": 1753966800000,
+"pnl_points": 24.375
+},
+{
+"entry_ts": 1754398800000,
+"pnl_points": 16.625
+},
+{
+"entry_ts": 1754485200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1755005400000,
+"pnl_points": 67.25
+},
+{
+"entry_ts": 1755090000000,
+"pnl_points": 29.5
+},
+{
+"entry_ts": 1755262800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1755694800000,
+"pnl_points": 16.125
+},
+{
+"entry_ts": 1756213200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1756733400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1756990800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1757079000000,
+"pnl_points": 31.25
+},
+{
+"entry_ts": 1757422800000,
+"pnl_points": 31.125
+},
+{
+"entry_ts": 1757597400000,
+"pnl_points": 48.625
+},
+{
+"entry_ts": 1757682900000,
+"pnl_points": 18.25
+},
+{
+"entry_ts": 1758204000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1758286800000,
+"pnl_points": 20.375
+},
+{
+"entry_ts": 1758718800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1758893400000,
+"pnl_points": 98.75
+},
+{
+"entry_ts": 1759150800000,
+"pnl_points": 47.25
+},
+{
+"entry_ts": 1759243500000,
+"pnl_points": 33.125
+},
+{
+"entry_ts": 1759411800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1759498200000,
+"pnl_points": 36.75
+},
+{
+"entry_ts": 1760102100000,
+"pnl_points": 40.5
+},
+{
+"entry_ts": 1760360400000,
+"pnl_points": 62.25
+},
+{
+"entry_ts": 1760448600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1760533200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1760619600000,
+"pnl_points": 18.625
+},
+{
+"entry_ts": 1760967000000,
+"pnl_points": 63.375
+},
+{
+"entry_ts": 1761051600000,
+"pnl_points": 22.375
+},
+{
+"entry_ts": 1761742800000,
+"pnl_points": 20.375
+},
+{
+"entry_ts": 1761829200000,
+"pnl_points": 16.875
+},
+{
+"entry_ts": 1762180200000,
+"pnl_points": 76.25
+},
+{
+"entry_ts": 1762351200000,
+"pnl_points": 19.75
+},
+{
+"entry_ts": 1762524000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1763388000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1763560800000,
+"pnl_points": 35.75
+},
+{
+"entry_ts": 1763733600000,
+"pnl_points": 28.125
+},
+{
+"entry_ts": 1763992800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1764252900000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1764338400000,
+"pnl_points": 26.0
+},
+{
+"entry_ts": 1764598500000,
+"pnl_points": 28.5
+},
+{
+"entry_ts": 1764684900000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1764858600000,
+"pnl_points": 39.5
+},
+{
+"entry_ts": 1765203300000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1765288800000,
+"pnl_points": 18.125
+},
+{
+"entry_ts": 1765375200000,
+"pnl_points": 20.0
+},
+{
+"entry_ts": 1765461600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1765809000000,
+"pnl_points": 16.375
+},
+{
+"entry_ts": 1765893600000,
+"pnl_points": 41.75
+},
+{
+"entry_ts": 1765980000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1766066400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1766413800000,
+"pnl_points": 42.375
+},
+{
+"entry_ts": 1766584800000,
+"pnl_points": 25.5
+},
+{
+"entry_ts": 1767104100000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1767623400000,
+"pnl_points": 88.375
+},
+{
+"entry_ts": 1767708000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1768572000000,
+"pnl_points": 21.5
+},
+{
+"entry_ts": 1769004000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1769090400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1769608800000,
+"pnl_points": 18.375
+},
+{
+"entry_ts": 1769695200000,
+"pnl_points": 31.0
+},
+{
+"entry_ts": 1770127200000,
+"pnl_points": 25.625
+},
+{
+"entry_ts": 1770214500000,
+"pnl_points": 21.5
+},
+{
+"entry_ts": 1770386400000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1770647400000,
+"pnl_points": 131.125
+},
+{
+"entry_ts": 1770733800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1770904800000,
+"pnl_points": 16.75
+},
+{
+"entry_ts": 1771423200000,
+"pnl_points": 19.125
+},
+{
+"entry_ts": 1771509600000,
+"pnl_points": 18.625
+},
+{
+"entry_ts": 1771855200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1771943400000,
+"pnl_points": 119.0
+},
+{
+"entry_ts": 1772114400000,
+"pnl_points": 22.875
+},
+{
+"entry_ts": 1772200800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1772460000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1772546400000,
+"pnl_points": 17.875
+},
+{
+"entry_ts": 1772632800000,
+"pnl_points": 22.875
+},
+{
+"entry_ts": 1773063000000,
+"pnl_points": 151.0
+},
+{
+"entry_ts": 1773147600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1773408600000,
+"pnl_points": 42.125
+},
+{
+"entry_ts": 1773926100000,
+"pnl_points": 35.625
+},
+{
+"entry_ts": 1774357200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1774531800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1774617300000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1775134800000,
+"pnl_points": 17.625
+},
+{
+"entry_ts": 1775482200000,
+"pnl_points": -8.125
+},
+{
+"entry_ts": 1775654100000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1775739600000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1776085200000,
+"pnl_points": 19.875
+},
+{
+"entry_ts": 1776344400000,
+"pnl_points": 16.25
+},
+{
+"entry_ts": 1776432600000,
+"pnl_points": 38.0
+},
+{
+"entry_ts": 1776690000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1776776400000,
+"pnl_points": 18.0
+},
+{
+"entry_ts": 1776949200000,
+"pnl_points": 22.75
+},
+{
+"entry_ts": 1777294800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1777381200000,
+"pnl_points": 35.625
+},
+{
+"entry_ts": 1777640400000,
+"pnl_points": 30.25
+},
+{
+"entry_ts": 1777986000000,
+"pnl_points": 24.125
+},
+{
+"entry_ts": 1778072400000,
+"pnl_points": 24.75
+},
+{
+"entry_ts": 1778247000000,
+"pnl_points": 42.25
+},
+{
+"entry_ts": 1778508900000,
+"pnl_points": 126.25
+},
+{
+"entry_ts": 1778677200000,
+"pnl_points": 23.75
+},
+{
+"entry_ts": 1778765400000,
+"pnl_points": 36.625
+},
+{
+"entry_ts": 1778850000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1779109200000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1779195600000,
+"pnl_points": 26.375
+},
+{
+"entry_ts": 1779283800000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1779714000000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1780065000000,
+"pnl_points": 89.25
+},
+{
+"entry_ts": 1780406100000,
+"pnl_points": 43.75
+},
+{
+"entry_ts": 1780491600000,
+"pnl_points": 17.125
+},
+{
+"entry_ts": 1780666200000,
+"pnl_points": 74.75
+},
+{
+"entry_ts": 1780925400000,
+"pnl_points": 97.0
+},
+{
+"entry_ts": 1781528400000,
+"pnl_points": 27.75
+},
+{
+"entry_ts": 1781614800000,
+"pnl_points": 39.75
+},
+{
+"entry_ts": 1781702100000,
+"pnl_points": -8.0
+},
+{
+"entry_ts": 1782133200000,
+"pnl_points": 50.875
+},
+{
+"entry_ts": 1782306000000,
+"pnl_points": 20.25
+},
+{
+"entry_ts": 1782392400000,
+"pnl_points": 21.0
+},
+{
+"entry_ts": 1782479700000,
+"pnl_points": 43.5
+},
+{
+"entry_ts": 1782738900000,
+"pnl_points": 40.25
+},
+{
+"entry_ts": 1782997200000,
+"pnl_points": 67.125
+}
+]
