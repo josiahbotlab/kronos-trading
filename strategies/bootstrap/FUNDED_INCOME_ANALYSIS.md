@@ -2,9 +2,11 @@
 
 _Session 2026-07-02/03. All pass-rate & income figures are SIM RESULTS from this session (bootstrap, seed 42, 10k windows). Firm-rule facts labeled as such._
 
+> ⚠️ **FIGURES NEED REBUILD (flagged 2026-07-03).** Every pass-rate and income number below was computed from the ORB-15m-trail daily-net pool (`orb_15m_trail_v1.json`), which was built on the **inflated** run (implied WR 69% / PF 6.04). The committed/reproducible ORB-15m-trail is **WR 52.2% / PF 4.46 / avgR +2.26** (`backtest_orb_15m_trail_oos.py`). The favorable-fill inflation flows through the pool into the bootstrap, so the **58.58% combine pass-rate and the $3.3–4.0k/mo income figures are overstated and must be rebuilt against an honest pool before use.** Do not act on the income numbers until rebuilt.
+
 ## Validated lineup
 - **ORB-15m-trail (2 MNQ) + Donchian-long (3 MNQ)** — KZ-free, both NQ. Costs $1.24/RT + 1.0pt slip.
-- ORB-15m-trail pool: `pools/orb_15m_trail_v1.json` · 360 trades · sha256 `acade2c7f7be50cbdcd4551c3034810e0e2d3558cb4ed4526c390176f05a8775` (git-committed 4104ba1)
+- ORB-15m-trail pool: `pools/orb_15m_trail_v1.json` · 360 trades · sha256 `acade2c7f7be50cbdcd4551c3034810e0e2d3558cb4ed4526c390176f05a8775` (git-committed 4104ba1) — **⚠️ built on the inflated run (implies WR 69%/PF 6.04); committed backtest = WR 52.2%/PF 4.46. This pool's daily-net feeds the income sim, so the figures below are overstated and need a rebuild.**
 - Donchian-long: 379 trades (reconstructed from `nq_1m_db`, N=12/5m/max-1/200SMA/1.5ATR/2R)
 - Canonical baseline: `baseline_800_v4.json` sha256 `615e9414ce0db99d3864f7f4a443a61488c6dc0391fd7150c5e72537db098b12`
 - Both strategies Stage-2 validated with realistic 1m-resolved fills (see STRATEGY_REGISTRY.md / TEST_MATRIX.md).
@@ -55,4 +57,4 @@ _Session 2026-07-02/03. All pass-rate & income figures are SIM RESULTS from this
 - **Income EXCLUDES account/activation cost and reset/reactivation fees; dead accounts not reactivated within window; accounts modeled independent (no cross-account correlation).**
 - Intraday drawdown not modeled (EOD-only), per the EOD-trailing rule.
 
-_Last updated: 2026-07-03._
+_Last updated: 2026-07-03. ⚠️ ORB-15m-trail figures corrected (WR 52.2%/PF 4.46/avgR +2.26, was 69%/6.04 from uncommitted orb_oos.py); pass-rate & income numbers built on the inflated pool and NOT yet rebuilt._
